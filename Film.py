@@ -35,5 +35,5 @@ class Film:
         return self.duration
 
     def show(self):
-        print(f'Name - "{self.name}". Year of publishing is {self.year} minutes.'
+        print(f'Name - "{self.name}". Year of publishing is {self.year}.'
               f" Duration - {self.duration} minutes.")
